@@ -11,7 +11,7 @@ const root = createRoot(document.getElementById('root')!);
 root.render(
     <div className="min-h-screen flex flex-col min-h-screen bg-[#111315]">
         <Header/>
-        {/*<CoursesPage/>*/}
+
         <CourseDetailPage/>
         <Footer/>
     </div>
