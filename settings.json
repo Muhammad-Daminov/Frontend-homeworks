@@ -1,0 +1,5 @@
+{
+  "editor.inlayHints.enabled": "off",
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.parameterNames.enabled": "none"
+}
