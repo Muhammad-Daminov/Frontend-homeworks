@@ -6,17 +6,20 @@ import Footer from "./Footer.tsx";
 // import CourseHeader from "./CourseHeader.tsx";
 import CourseDetailPage from "./CourseDetailPage.tsx";
 import LibrarySingle from "./LibrarySingle.tsx"
+import CartPage from "./CartPage.tsx";
 
 const root = createRoot(document.getElementById('root')!);
 
 root.render(
     <div className="min-h-screen flex flex-col min-h-screen bg-[#111315]">
-        {/*<Header/>*/}
+        <Header/>
 
         {/*<CourseDetailPage/>*/}
-        {/*<Footer/>*/}
 
-        <LibrarySingle/>
+        {/*<LibrarySingle/>*/}
+        <CartPage/>
+        <Footer/>
+
     </div>
 );
 
